@@ -76,3 +76,4 @@ npm test                  #Ejecute los tests
 * Guía completa markdown y su integración con R. (2022). Retrieved 28 November 2022, from https://rstudio-pubs-static.s3.amazonaws.com/330387_5a40ca72c3b14824acedceb7d34618d1.html
 * Basic Syntax | Markdown Guide. (2022). Retrieved 28 November 2022, from https://www.markdownguide.org/basic-syntax/#paragraphs-1
 * head, W., Stewart, R., & Bailey, C. (2011). What to do with commit made in a detached head. Retrieved 25 November 2022, from https://stackoverflow.com/questions/7124486/what-to-do-with-commit-made-in-a-detached-head/7124513#7124513
+* How to rename and change a Git branch name locally &amp; remotely. (2022). Retrieved 28 November 2022, from https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/rename-Git-branch-local-remote-GitHub-GitLab-BitBucket
