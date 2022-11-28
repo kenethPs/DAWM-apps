@@ -9,6 +9,11 @@ git clone https://github.com/DAWFIEC/DAWM-apps.git
 
 ### Cliente
 
+Ingrese a la carpeta, con:
+```
+cd album/clienteAngular
+```
+
 #### Hitos
 
 #### Instalación y Ejecución
