@@ -11,7 +11,7 @@ git clone https://github.com/DAWFIEC/DAWM-apps.git
 
 Ingrese a la carpeta, con:
 ```
-cd album/clienteAngular
+cd DAWM-apps/album/clienteAngular
 ```
 
 #### Hitos
