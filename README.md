@@ -23,7 +23,7 @@ git clone https://github.com/DAWFIEC/DAWM-apps.git
 
 ```
 cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
-git switch hito<N>        #Muévase a la rama deseada
+git switch hito<N>-album  #Cámbiese a la rama deseada
 cd album/clienteAngular   #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
 ng serve -o               #Levante el servidor
@@ -35,7 +35,7 @@ Para los hitos marcados con TDDs:
 
 ```
 cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
-git switch hito<N>        #Muévase a la rama deseada
+git switch hito<N>-album  #Cámbiese a la rama deseada
 cd album/clienteAngular   #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
 npm test                  #Ejecute los tests
@@ -53,7 +53,7 @@ npm test                  #Ejecute los tests
 
 ```
 cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
-git switch hito<N>        #Muévase a la rama deseada
+git switch hito<N>-spa    #Cámbiese a la rama deseada
 cd spa/clienteAngular     #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
 ng serve -o               #Levante el servidor
@@ -65,7 +65,7 @@ Para los hitos marcados con TDDs:
 
 ```
 cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
-git switch hito<N>        #Muévase a la rama deseada
+git switch hito<N>-spa    #Cámbiese a la rama deseada
 cd album/clienteAngular   #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
 npm test                  #Ejecute los tests
