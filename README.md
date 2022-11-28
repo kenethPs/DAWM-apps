@@ -1,5 +1,10 @@
 # Aplicaciones
 
+Clone el proyecto base, con:
+```
+git clone https://github.com/DAWFIEC/DAWM-apps.git
+```
+
 ## Album de fotos
 
 ### Cliente
