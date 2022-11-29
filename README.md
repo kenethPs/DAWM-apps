@@ -48,6 +48,7 @@ npm test                  #Ejecute los tests
 #### Hitos
 
 * **[`hito1-spa`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-spa)** Sitio básico con Bootstrap y componentes compartidos, según las instrucciones de [Guía 13](https://dawfiec.github.io/DAWM/guias/guia13.html).
+* **[`hito2-spa`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-spa)** PWA y servicios, según las instrucciones de [Guía 14](https://dawfiec.github.io/DAWM/guias/guia14.html).
 
 #### Instalación y Ejecución
 
