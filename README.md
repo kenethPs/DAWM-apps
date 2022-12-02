@@ -78,7 +78,8 @@ npm test                  #Ejecute los tests
 
 #### Hitos
 
-* **[`hito1-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-hibrida)** Sitio básico con Bootstrap y Angular Material, según las instrucciones de [Angular Material](https://dawfiec.github.io/DAWM/tutoriales/angular_material.html).
+* **[`hito1-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-hibrida)** Sitio básico con Bootstrap, según las instrucciones de [Angular Local](https://dawfiec.github.io/DAWM/tutoriales/angular_local.html) y de [Angular Bootstrap](https://dawfiec.github.io/DAWM/tutoriales/angular_bootstrap.html)..
+* **[`hito2-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-hibrida)** usa Angular Material, según las instrucciones de [Angular Material](https://dawfiec.github.io/DAWM/tutoriales/angular_material.html).
 
 #### Instalación y Ejecución
 
