@@ -85,7 +85,7 @@ npm test                  #Ejecute los tests
 ```
 cd DAWM-apps               #Ingrese a la carpeta de las aplicaciones
 git switch hito<N>-hibrida #Cámbiese a la rama deseada
-cd hibrida/clienteAngular      #Ingrese a la carpeta del proyecto
+cd hibrida/clienteAngular  #Ingrese a la carpeta del proyecto
 npm i                      #Instale las dependencias
 ng serve -o                #Levante el servidor
 ```
