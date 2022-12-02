@@ -72,6 +72,24 @@ npm i                     #Instale las dependencias
 npm test                  #Ejecute los tests
 ```
 
+## Híbrida
+
+### Cliente
+
+#### Hitos
+
+* **[`hito1-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-hibrida)** Sitio básico con Bootstrap y Angular Material, según las instrucciones de [Angular Material](https://dawfiec.github.io/DAWM/tutoriales/angular_material.html).
+
+#### Instalación y Ejecución
+
+```
+cd DAWM-apps               #Ingrese a la carpeta de las aplicaciones
+git switch hito<N>-hibrida #Cámbiese a la rama deseada
+cd hibrida/clienteAngular      #Ingrese a la carpeta del proyecto
+npm i                      #Instale las dependencias
+ng serve -o                #Levante el servidor
+```
+
 ## Referencias
 
 * Guía completa markdown y su integración con R. (2022). Retrieved 28 November 2022, from https://rstudio-pubs-static.s3.amazonaws.com/330387_5a40ca72c3b14824acedceb7d34618d1.html
