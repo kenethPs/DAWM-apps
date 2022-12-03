@@ -81,6 +81,8 @@ npm test                  #Ejecute los tests
 * **[`hito1-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-hibrida)** Sitio básico con Bootstrap, según las instrucciones de [Angular Local](https://dawfiec.github.io/DAWM/tutoriales/angular_local.html) y de [Angular Bootstrap](https://dawfiec.github.io/DAWM/tutoriales/angular_bootstrap.html)..
 * **[`hito2-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-hibrida)** usa Angular Material, según las instrucciones de [Angular Material](https://dawfiec.github.io/DAWM/tutoriales/angular_material.html).
 * **[`hito3-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito3-hibrida)** incorpora el manejo de rutas, según las instrucciones de [Angular Rutas](https://dawfiec.github.io/DAWM/tutoriales/angular_rutas.html).
+* **[`hito4-hibrida`](https://github.com/DAWFIEC/DAWM-apps/tree/hito4-hibrida)** TDD con Karma: Material y Rutas, según las instrucciones de [Capítulo 04/Ejercicio07](https://github.com/DAWFIEC/DAWM/tree/main/Cap%C3%ADtulo%2004/ejercicio07)
+
 
 #### Instalación y Ejecución
 
@@ -90,6 +92,18 @@ git switch hito<N>-hibrida #Cámbiese a la rama deseada
 cd hibrida/clienteAngular  #Ingrese a la carpeta del proyecto
 npm i                      #Instale las dependencias
 ng serve -o                #Levante el servidor
+```
+
+#### Test
+
+Para los hitos marcados con TDDs:
+
+```
+cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
+git switch hito<N>-hibrida#Cámbiese a la rama deseada
+cd hibrida/clienteAngular #Ingrese a la carpeta del proyecto
+npm i                     #Instale las dependencias
+npm test                  #Ejecute los tests
 ```
 
 ## Referencias
