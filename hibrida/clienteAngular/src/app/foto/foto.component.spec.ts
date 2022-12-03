@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import {MatCardModule} from '@angular/material/card';
 import { FotoComponent } from './foto.component';
 
 describe('FotoComponent', () => {
@@ -8,7 +9,8 @@ describe('FotoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FotoComponent ]
+      declarations: [ FotoComponent ],
+      imports: [MatCardModule]
     })
     .compileComponents();
 
