@@ -124,7 +124,7 @@ cd DAWM-apps               #Ingrese a la carpeta de las aplicaciones
 git switch hito<N>-admin   #Cámbiese a la rama deseada
 cd backend/admin           #Ingrese a la carpeta del proyecto
 npm i                      #Instale las dependencias
-ng serve -o                #Levante el servidor
+npm start                  #Levante el servidor
 ```
 
 #### Test
