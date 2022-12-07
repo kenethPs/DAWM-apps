@@ -106,6 +106,39 @@ npm i                     #Instale las dependencias
 npm test                  #Ejecute los tests
 ```
 
+## Backend
+
+### Admin
+
+#### Hitos
+
+* **[`hito1-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-admin)** Sitio básico con Express, según las instrucciones de [Express - Bases](https://dawfiec.github.io/DAWM/tutoriales/express_bases.html).
+* **[`hito2-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-admin)** usa Bootstrap, según las instrucciones de [Express - Bootstrap](https://dawfiec.github.io/DAWM/tutoriales/express_bootstrap.html).
+* **[`hito3-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito3-admin)** TDD con Jest: Express y Bootstrap, según las instrucciones de [Capítulo 05/Ejercicio01](https://github.com/DAWFIEC/DAWM/tree/main/Cap%C3%ADtulo%2005/ejercicio01)
+
+
+#### Instalación y Ejecución
+
+```
+cd DAWM-apps               #Ingrese a la carpeta de las aplicaciones
+git switch hito<N>-admin   #Cámbiese a la rama deseada
+cd backend/admin           #Ingrese a la carpeta del proyecto
+npm i                      #Instale las dependencias
+ng serve -o                #Levante el servidor
+```
+
+#### Test
+
+Para los hitos marcados con TDDs:
+
+```
+cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
+git switch hito<N>-admin  #Cámbiese a la rama deseada
+cd backend/admin          #Ingrese a la carpeta del proyecto
+npm i                     #Instale las dependencias
+npm test                  #Ejecute los tests
+```
+
 ## Referencias
 
 * Guía completa markdown y su integración con R. (2022). Retrieved 28 November 2022, from https://rstudio-pubs-static.s3.amazonaws.com/330387_5a40ca72c3b14824acedceb7d34618d1.html
