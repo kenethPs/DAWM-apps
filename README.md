@@ -41,6 +41,34 @@ npm i                     #Instale las dependencias
 npm test                  #Ejecute los tests
 ```
 
+### Admin
+
+#### Hitos
+
+* **[`hito1-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-admin)** Configuración básica de un proyecto Express, según las instrucciones de [Express - Bases](https://dawfiec.github.io/DAWM/tutoriales/express_bases.html).
+
+#### Instalación y Ejecución
+
+```
+cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
+git switch hito<N>-admin  #Cámbiese a la rama deseada
+cd album/adminExpress     #Ingrese a la carpeta del proyecto
+npm i                     #Instale las dependencias
+npm start                 #Levante el servidor
+```
+
+#### Test
+
+Para los hitos marcados con TDDs:
+
+```
+cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
+git switch hito<N>-admin  #Cámbiese a la rama deseada
+cd album/adminExpress     #Ingrese a la carpeta del proyecto
+npm i                     #Instale las dependencias
+npm test                  #Ejecute los tests
+```
+
 ## SPA
 
 ### Cliente
