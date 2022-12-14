@@ -7,7 +7,7 @@
                         <h2>Photos</h2>
                     </div>
                     <div class="col-sm-7">
-                        <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE147;</i> <span>Add New User</span></a>
+                        <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE147;</i> <span>Add New Photo</span></a>
                         <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE24D;</i> <span>Export to Excel</span></a>                       
                     </div>
                 </div>
@@ -16,71 +16,25 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Date Created</th>
                         <th>Description</th>
                         <th>URL</th>
-                        <th>Status</th>
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>04/10/2013</td>                        
-                        <td>foto</td>
-                        <td>http://localhost:3000/</td>
-                        <td><span class="status text-success">&bull;</span> Active</td>
-                        <td>
-                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>05/08/2014</td>                       
-                        <td>foto</td>
-                        <td>http://localhost:3000/</td>
-                        <td><span class="status text-success">&bull;</span> Active</td>
-                        <td>
-                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>11/05/2015</td>
-                        <td>foto</td>
-                        <td>http://localhost:3000/</td>
-                        <td><span class="status text-danger">&bull;</span> Suspended</td>                        
-                        <td>
-                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
-                        </td>                        
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>06/09/2016</td>
-                        <td>foto</td>
-                        <td>http://localhost:3000/</td>
-                        <td><span class="status text-success">&bull;</span> Active</td>
-                        <td>
-                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>12/08/2017</td>                        
-                        <td>foto</td>
-                        <td>http://localhost:3000/</td>
-                        <td><span class="status text-warning">&bull;</span> Inactive</td>
-                        <td>
-                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                <tbody>  
+                    <% arrFotos.forEach((foto, idx) => { %>  
+                      <tr>
+                        <td><%= idx %></td>  
+                        <td><%= foto.descripcion %></td>  
+                        <td><%= foto.url %></td>   
+                        <td>  
+                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>  
+                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>  
+                        </td>  
+                      </tr>  
+                    <% }); %>  
+                </tbody>  
+              </table>
             <div class="clearfix">
                 <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
                 <ul class="pagination">
