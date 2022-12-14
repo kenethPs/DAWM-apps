@@ -53,7 +53,7 @@ npm test                  #Ejecute los tests
 ```
 cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
 git switch hito<N>-admin  #Cámbiese a la rama deseada
-cd album/adminExpress     #Ingrese a la carpeta del proyecto
+cd album/admin            #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
 npm start                 #Levante el servidor
 ```
@@ -65,7 +65,7 @@ Para los hitos marcados con TDDs:
 ```
 cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
 git switch hito<N>-admin  #Cámbiese a la rama deseada
-cd album/adminExpress     #Ingrese a la carpeta del proyecto
+cd album/admin            #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
 npm test                  #Ejecute los tests
 ```
