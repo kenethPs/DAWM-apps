@@ -84,6 +84,9 @@ cd DAWM-apps              #Ingrese a la carpeta de las aplicaciones
 git switch hito<N>-api    #Cámbiese a la rama deseada
 cd album/api              #Ingrese a la carpeta del proyecto
 npm i                     #Instale las dependencias
+
+--Modifique la configuración para la conexión con la base de datos
+
 sequelize db:migrate      #Aplique las migraciones
 sequelize db:seed:all     #Genere los datos
 npm start                 #Levante el servidor
