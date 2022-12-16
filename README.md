@@ -89,7 +89,11 @@ npm i                     #Instale las dependencias
 
 sequelize db:migrate      #Aplique las migraciones
 sequelize db:seed:all     #Genere los datos
-npm start                 #Levante el servidor
+
+#Levante el servidor
+
+npm start                 #Servidor predeterminado de Express
+npm run devstart          #Servidor con detección de cambios (nodemon)
 ```
 
 #### Test
