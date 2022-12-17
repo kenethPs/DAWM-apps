@@ -75,8 +75,7 @@ npm test                  #Ejecute los tests
 #### Hitos
 
 * **[`hito1-api`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-api)** Configuración básica de un proyecto Express, según las instrucciones de [Express - Bases](https://dawfiec.github.io/DAWM/tutoriales/express_bases.html).
-* **[`hito2-api`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-api)** Uso básico del ORM del modelo FOTO.
-* **[`hito3-api`](https://github.com/DAWFIEC/DAWM-apps/tree/hito3-api)** Uso básico del ORM del modelo CATEGORIA.
+* **[`hito2-api`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-api)** Uso básico del ORM del modelo FOTO y del modelo CATEGORIA.
 
 #### Instalación y Ejecución
 
