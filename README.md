@@ -47,6 +47,7 @@ npm test                  #Ejecute los tests
 
 * **[`hito1-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito1-admin)** Configuración básica de un proyecto Express, según las instrucciones de [Express - Bases](https://dawfiec.github.io/DAWM/tutoriales/express_bases.html).
 * **[`hito2-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito2-admin)** Incorpora una plantilla de Bootstrap en un proyecto Express, según las instrucciones de [Express - Bootstrap](https://dawfiec.github.io/DAWM/tutoriales/express_bootstrap.html).
+* **[`hito3-admin`](https://github.com/DAWFIEC/DAWM-apps/tree/hito3-admin)** Reutilización de componentes, según las instrucciones de [Express - Layouts y Partials](https://dawfiec.github.io/DAWM/tutoriales/express_partials.html).
 
 #### Instalación y Ejecución
 
